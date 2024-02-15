@@ -13,6 +13,7 @@ const DataTable = () => {
 
 
 
+    /// Fetching the Data on pagewise 
 
     useEffect(() => {
         const skip = page * 10;
@@ -29,6 +30,9 @@ const DataTable = () => {
 
     }, [page]);
 
+
+
+    // Searching Data for the searching elements 
 
     let OnSearchingofData = (e) => {
         const searchValue = e.target.value
@@ -59,6 +63,8 @@ const DataTable = () => {
     //         });
     // }
 
+
+    // Default Data for the Bar Visulation 
     useEffect(() => {
 
         if (!search) {
@@ -68,6 +74,7 @@ const DataTable = () => {
     }, [data]);
 
 
+    // Checked items process  for Data Visualization  
     let OnCLickCheckedItems = (item) => {
 
         let newData = true;
@@ -85,6 +92,7 @@ const DataTable = () => {
 
         }
 
+        // Passsing the updated Values and through props passing the data to Bar COmponent 
         setCheckedItems(updatedItems);
 
     }

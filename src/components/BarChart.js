@@ -2,6 +2,8 @@ import React from "react";
 import Plot from "react-plotly.js";
 import "../components/Datatable.css";
 const BarChart = ({ DataDetails }) => {
+
+    // Receiving Data through Props and Making bar Chart with two ranges with respect to products 
     const data1 = DataDetails.map(item => ({
         x: [item.title],
         y: [item.price],

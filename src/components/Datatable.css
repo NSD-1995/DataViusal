@@ -1,0 +1,60 @@
+
+
+.datatablecontainer {
+    margin: 20px;
+}
+
+
+.datatablesearch {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.datatable {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.datatable th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.datatable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+.datatablebutton {
+    margin-right: 5px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.datatablebutton:hover {
+    background-color: #0056b3;
+}
+
+.dataVisual{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.chart {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; 
+  }
+  
